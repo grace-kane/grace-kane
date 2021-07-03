@@ -410,6 +410,7 @@ body.offcanvas {
   padding: 0; }
 
 .colorlib-experience,
+.colorlib-flighthours,
 .colorlib-skills,
 .colorlib-education,
 .colorlib-blog,
@@ -424,6 +425,7 @@ body.offcanvas {
   display: block; }
   @media screen and (max-width: 768px) {
     .colorlib-experience,
+    .colorlib-flighthours,
     .colorlib-skills,
     .colorlib-education,
     .colorlib-blog,
@@ -1066,7 +1068,7 @@ body.offcanvas {
 #colorlib-counter {
   position:  absolute;
   clear: both;
-  margin-bottom: 10em; }
+  margin-bottom: 10em;}
 
 .colorlib-counters {
   padding: 3em 0;
