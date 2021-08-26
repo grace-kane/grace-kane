@@ -40,13 +40,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin: 0 0 30px 0; }
 
-h6 {
-    color: #fff;
-    font-family: "Playfair Display", Georgia, serif;
-    font-weight: 400;
-    font-size: 40px;
-    margin: 0 0 30px 0; }
-
 figure {
   margin-bottom: 2.5em;
   float: left;
@@ -194,11 +187,11 @@ figure {
             -o-transform: scaleX(1);
             transform: scaleX(1); }
   #colorlib-aside .colorlib-footer {
-    font-size: 5px;
+    font-size: 15px;
     text-align: center;
-    font-weight: 200;
+    font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
-    padding: 0 10px;
+    padding: 0 20px;
     width: 100%; }
     @media screen and (max-width: 768px) {
       #colorlib-aside .colorlib-footer {
@@ -216,40 +209,40 @@ figure {
         list-style: none; }
         #colorlib-aside .colorlib-footer ul li a {
           color: rgba(255, 255, 255, 0.3);
-          padding: 1px; }
+          padding: 4px; }
           #colorlib-aside .colorlib-footer ul li a:hover, #colorlib-aside .colorlib-footer ul li a:active, #colorlib-aside .colorlib-footer ul li a:focus {
             text-decoration: none;
             outline: none;
             color: #2c98f0; }
 
             /* Style all font awesome icons */
-            .fa {
-              padding: 20px;
-              font-size: 50px;
-              width: 50px;
-              text-align: right;
-              text-decoration: none;
+               .fa {
+                 padding: 20px;
+                 font-size: 50px;
+                 width: 50px;
+                 text-align: right;
+                 text-decoration: none;
 
-            }
+               }
 
-            /* Add a hover effect if you want */
-            .fa:hover {
-              opacity: 0.7;
-            }
+               /* Add a hover effect if you want */
+               .fa:hover {
+                 opacity: 0.7;
+               }
 
-            /* Set a specific color for each brand */
+               /* Set a specific color for each brand */
 
-            /* Linkedin */
-            .fa-linkedin {
-              background: white;
-              color: black;
-            }
+               /* Linkedin */
+               .fa-linkedin {
+                 background: white;
+                 color: black;
+               }
 
-            /* Instagram */
-            .fa-instagram {
-              background: white;
-              color: black;
-            }
+               /* Instagram */
+               .fa-instagram {
+                 background: white;
+                 color: black;
+               }
 
 .container-wrap {
   max-width: 1170px;
@@ -313,7 +306,6 @@ figure {
     #colorlib-hero .flexslider .flex-direction-nav {
       display: none; }
     #colorlib-hero .flexslider .slider-text {
-
       display: table;
       opacity: 0;
       min-height: 500px;
@@ -326,11 +318,11 @@ figure {
         position: relative; }
         @media screen and (max-width: 768px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
-            text-align: left; } }
+            text-align: center; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
           padding: 0;
-          color: white;
+          color: black;
           font-family: "Playfair Display", Georgia, serif; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
@@ -406,11 +398,10 @@ body.offcanvas {
       padding: 0; } }
 
 .no-gutters {
-  margin: 10;
+  margin: 0;
   padding: 0; }
 
 .colorlib-experience,
-.colorlib-flighthours,
 .colorlib-skills,
 .colorlib-education,
 .colorlib-blog,
@@ -425,7 +416,6 @@ body.offcanvas {
   display: block; }
   @media screen and (max-width: 768px) {
     .colorlib-experience,
-    .colorlib-flighthours,
     .colorlib-skills,
     .colorlib-education,
     .colorlib-blog,
@@ -457,7 +447,6 @@ body.offcanvas {
       margin-bottom: 3em; } }
 
 .heading-meta {
-  margin-top: 20px;
   margin-bottom: 15px;
   display: block;
   font-size: 10px;
@@ -479,7 +468,7 @@ body.offcanvas {
 
 .hire {
   padding: 2em;
-  background: #f9bf3f; }
+  background: #2c98f0; }
   .hire h2 {
     line-height: 1.5; }
   .hire .btn-hire {
@@ -599,11 +588,11 @@ body.offcanvas {
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon i {
     color: #fff; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-2 {
-    background: #ec5453; }
+    background: #2c98f0; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-3 {
-    background: #f9bf3f; }
+    background: #2c98f0; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-4 {
-    background: #a84cb8; }
+    background: #2c98f0; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-5 {
     background: #2fa499; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-none {
@@ -1066,9 +1055,9 @@ body.offcanvas {
   width: 100%; }
 
 #colorlib-counter {
-  position:  absolute;
+  position: relative;
   clear: both;
-  margin-bottom: 10em;}
+  margin-bottom: 5em; }
 
 .colorlib-counters {
   padding: 3em 0;
@@ -1229,15 +1218,15 @@ body.offcanvas {
   color: #fff;
   border: 2px solid #2c98f0; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #44a4f2 !important;
-    border-color: #44a4f2 !important; }
+    background: #2c98f0 !important;
+    border-color: #2c98f0x= !important; }
   .btn-primary.btn-outline {
     background: transparent;
     color: #2c98f0;
     border: 2px solid #2c98f0; }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
       background: #2c98f0;
-      color: #fff; }
+      color: #2c98f0; }
 
 .btn-success {
   background: #5cb85c;
@@ -1460,17 +1449,10 @@ body.offcanvas {
       padding-bottom: 1em; } }
 
 .row-pt-md {
-  padding-top: 5em; }
+  padding-top: 3em; }
 
 .col-padding {
-  padding: 14px !important; }
+  padding: 10px !important; }
 
 .js .animate-box {
   opacity: 0; }
-
-.footer span.copyright {
-    font-size: 20%;
-    line-height: 40px;
-    text-transform: none;
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  }
