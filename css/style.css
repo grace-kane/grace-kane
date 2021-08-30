@@ -458,7 +458,9 @@ body.offcanvas {
 .about-img {
   width: 100%;
   height: 600px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  float: left;
+  margin: 5px;}
 
 .about-desc h3 {
   font-size: 18px;
