@@ -666,7 +666,7 @@ body.offcanvas {
   .services.color-2 {
     border-bottom: 2px solid #f0; }
     .services.color-2 .icon2 i {
-      color: #345d83; }
+      color: #f0; }
   .services.color-3 {
     border-bottom: 2px solid #f0; }
     .services.color-3 .icon2 i {
@@ -718,7 +718,7 @@ body.offcanvas {
       border-color: #f0 transparent transparent transparent; }
     .services .icon i {
       font-size: 30px;
-      color: #fff;
+      color: #345d83;
       z-index: 1;
       display: table-cell;
       vertical-align: middle; }
